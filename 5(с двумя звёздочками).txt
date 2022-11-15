@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int[] nums = {7, 44, 2, 8};
+		int max = nums[0];
+		int min = nums[0];
+		for (int j = 0; j < nums.length; j++){
+		    if (nums[j] > max){
+		        max = nums[j];
+		    }
+		}System.out.println(max + " = max");
+		for (int j = 0; j < nums.length; j++){
+		    if (nums[j] < min){
+		        min = nums[j];
+		        
+		    }
+		}System.out.println(min + " = min");
+	}
+}

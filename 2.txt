@@ -1,0 +1,10 @@
+class Main{
+	public static void main(String[] args) {
+        int firstArray[] = new int[9];
+        firstArray[0] = 0;
+        for (int i = 0; i < firstArray.length - 1; i++) {
+            firstArray[i + 1] = firstArray[i] + 3;
+        System.out.println(firstArray[i]);
+	    }
+	}
+}

@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args){
+        int counter = 1;
+        int[][] table = new int[4][4];
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                table[i][j] = counter;
+                table[i][i] = 1;
+                table[j][j] = 1;
+                System.out.print(table[i][j] + " ");
+                counter++;
+            }
+            System.out.println();
+
+        }
+}
+}
